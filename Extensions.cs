@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using SafeZone.Data.Context;
 
 namespace SafeZone.Data;
 
