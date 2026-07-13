@@ -11,8 +11,7 @@ public static class ServiceCollectionExtensions
         string connectionString
     )
     {
-        services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer(connectionString));
+        services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 
         return services;
     }
