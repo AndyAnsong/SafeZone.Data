@@ -8,7 +8,8 @@ public static class ServiceCollectionExtensions
 {
     public static IServiceCollection AddSafeZoneData(
         this IServiceCollection services,
-        string connectionString)
+        string connectionString
+    )
     {
         services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(connectionString));
